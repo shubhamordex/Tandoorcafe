@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">तंदूर नाइट कैफे</string>
+    
+    <!-- Home Screen -->
+    <string name="welcome_message">तंदूर नाइट कैफे में आपका स्वागत है</string>
+    <string name="menu_management">मेनू प्रबंधन</string>
+    <string name="new_order">नया ऑर्डर</string>
+    <string name="view_orders">ऑर्डर देखें</string>
+    <string name="reports">रिपोर्ट</string>
+    <string name="settings">सेटिंग्स</string>
+    
+    <!-- Menu Management -->
+    <string name="add_item">आइटम जोड़ें</string>
+    <string name="edit_item">आइटम संपादित करें</string>
+    <string name="delete_item">आइटम हटाएं</string>
+    <string name="item_name">आइटम का नाम</string>
+    <string name="item_price">कीमत</string>
+    <string name="item_category">श्रेणी</string>
+    <string name="item_description">विवरण</string>
+    <string name="save">सेव करें</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="delete">हटाएं</string>
+    <string name="confirm_delete">क्या आप वाकई इस आइटम को हटाना चाहते हैं?</string>
+    <string name="yes">हां</string>
+    <string name="no">नहीं</string>
+    
+    <!-- Categories -->
+    <string name="category_appetizer">स्टार्टर</string>
+    <string name="category_main_course">मुख्य व्यंजन</string>
+    <string name="category_bread">रोटी</string>
+    <string name="category_beverage">पेय पदार्थ</string>
+    <string name="category_dessert">मिठाई</string>
+    
+    <!-- Order Screen -->
+    <string name="select_items">आइटम चुनें</string>
+    <string name="add_to_cart">कार्ट में जोड़ें</string>
+    <string name="cart">कार्ट</string>
+    <string name="quantity">मात्रा</string>
+    <string name="subtotal">उप-योग</string>
+    <string name="tax">कर</string>
+    <string name="total">कुल</string>
+    <string name="proceed_to_billing">बिलिंग के लिए आगे बढ़ें</string>
+    <string name="cart_empty">कार्ट खाली है</string>
+    <string name="remove">हटाएं</string>
+    
+    <!-- Billing Screen -->
+    <string name="billing">बिलिंग</string>
+    <string name="customer_name">ग्राहक का नाम</string>
+    <string name="customer_phone">फोन नंबर</string>
+    <string name="payment_method">भुगतान विधि</string>
+    <string name="payment_cash">नकद</string>
+    <string name="payment_card">कार्ड</string>
+    <string name="payment_upi">UPI</string>
+    <string name="generate_invoice">बिल बनाएं</string>
+    <string name="invoice_generated">बिल सफलतापूर्वक बना</string>
+    <string name="save_pdf">PDF सेव करें</string>
+    <string name="share_invoice">बिल शेयर करें</string>
+    <string name="invoice_number">बिल नंबर</string>
+    <string name="date">तारीख</string>
+    <string name="items">आइटम</string>
+    <string name="order_placed">ऑर्डर सफलतापूर्वक दिया गया</string>
+    
+    <!-- Orders List -->
+    <string name="order_id">ऑर्डर ID</string>
+    <string name="order_date">ऑर्डर की तारीख</string>
+    <string name="order_total">ऑर्डर कुल</string>
+    <string name="order_status">स्थिति</string>
+    <string name="status_pending">लंबित</string>
+    <string name="status_completed">पूर्ण</string>
+    <string name="status_cancelled">रद्द</string>
+    <string name="view_details">विवरण देखें</string>
+    <string name="no_orders">कोई ऑर्डर नहीं मिला</string>
+    
+    <!-- Reports -->
+    <string name="sales_report">बिक्री रिपोर्ट</string>
+    <string name="date_range">तिथि सीमा</string>
+    <string name="from_date">से तारीख</string>
+    <string name="to_date">तक तारीख</string>
+    <string name="generate_report">रिपोर्ट बनाएं</string>
+    <string name="export_csv">CSV में निर्यात करें</string>
+    <string name="total_sales">कुल बिक्री</string>
+    <string name="total_orders">कुल ऑर्डर</string>
+    <string name="average_order_value">औसत ऑर्डर मूल्य</string>
+    <string name="report_exported">रिपोर्ट सफलतापूर्वक निर्यात की गई</string>
+    <string name="top_items">सबसे ज्यादा बिकने वाले आइटम</string>
+    
+    <!-- Settings -->
+    <string name="language">भाषा</string>
+    <string name="language_english">English (अंग्रेजी)</string>
+    <string name="language_hindi">हिंदी</string>
+    <string name="tax_rate">कर दर (%)</string>
+    <string name="currency_symbol">मुद्रा प्रतीक</string>
+    <string name="restaurant_name">रेस्तरां का नाम</string>
+    <string name="restaurant_address">रेस्तरां का पता</string>
+    <string name="restaurant_phone">रेस्तरां फोन</string>
+    <string name="settings_saved">सेटिंग्स सफलतापूर्वक सेव की गईं</string>
+    <string name="apply">लागू करें</string>
+    
+    <!-- Validation Messages -->
+    <string name="error_empty_field">यह फील्ड खाली नहीं हो सकती</string>
+    <string name="error_invalid_price">कृपया एक मान्य कीमत दर्ज करें</string>
+    <string name="error_invalid_quantity">कृपया एक मान्य मात्रा दर्ज करें</string>
+    <string name="error_invalid_tax">कृपया एक मान्य कर दर दर्ज करें</string>
+    <string name="error_invalid_phone">कृपया एक मान्य फोन नंबर दर्ज करें</string>
+    <string name="error_select_items">कृपया कार्ट में आइटम जोड़ें</string>
+    
+    <!-- Common -->
+    <string name="ok">ठीक है</string>
+    <string name="back">वापस</string>
+    <string name="search">खोजें</string>
+    <string name="filter">फ़िल्टर</string>
+    <string name="all">सभी</string>
+    <string name="rupee_symbol">₹</string>
+    <string name="price_format">₹%.2f</string>
+    <string name="loading">लोड हो रहा है…</string>
+    <string name="error">त्रुटि</string>
+    <string name="success">सफलता</string>
+</resources>
